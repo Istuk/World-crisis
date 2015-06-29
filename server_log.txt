@@ -1,0 +1,418 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[15:19:03] filterscripts = ""  (string)
+[15:19:03] weburl = "www.sa-mp.com"  (string)
+[15:19:03] 
+[15:19:03] Server Plugins
+[15:19:03] --------------
+[15:19:03]  Loading plugin: sscanf
+[15:19:03] 
+
+[15:19:03]  ===============================
+
+[15:19:03]       sscanf plugin loaded.     
+
+[15:19:03]          Version:  2.8.1        
+
+[15:19:03]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:19:03]  ===============================
+
+[15:19:03]   Loaded.
+[15:19:03]  Loaded 1 plugins.
+
+[15:19:03] 
+[15:19:03] Filterscripts
+[15:19:03] ---------------
+[15:19:03]   Loaded 0 filterscripts.
+
+[15:19:03] Number of vehicle models: 0
+[15:20:25] [connection] 127.0.0.1:49370 requests connection cookie.
+[15:20:26] Incoming connection: 127.0.0.1:49370 id: 0
+[15:20:26] [join] Test_User has joined the server (0:127.0.0.1)
+[15:21:10] [part] Test_User has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[15:22:17] filterscripts = ""  (string)
+[15:22:17] weburl = "www.sa-mp.com"  (string)
+[15:22:17] 
+[15:22:17] Server Plugins
+[15:22:17] --------------
+[15:22:17]  Loading plugin: sscanf
+[15:22:17] 
+
+[15:22:17]  ===============================
+
+[15:22:17]       sscanf plugin loaded.     
+
+[15:22:17]          Version:  2.8.1        
+
+[15:22:17]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:22:17]  ===============================
+
+[15:22:17]   Loaded.
+[15:22:17]  Loaded 1 plugins.
+
+[15:22:17] 
+[15:22:17] Filterscripts
+[15:22:17] ---------------
+[15:22:17]   Loaded 0 filterscripts.
+
+[15:22:17] Number of vehicle models: 1
+[15:22:47] [connection] 127.0.0.1:58619 requests connection cookie.
+[15:22:48] Incoming connection: 127.0.0.1:58619 id: 0
+[15:22:48] [join] Test_User has joined the server (0:127.0.0.1)
+[15:24:13] [part] Test_User has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[15:24:23] filterscripts = ""  (string)
+[15:24:23] weburl = "www.sa-mp.com"  (string)
+[15:24:23] 
+[15:24:23] Server Plugins
+[15:24:23] --------------
+[15:24:23]  Loading plugin: sscanf
+[15:24:23] 
+
+[15:24:23]  ===============================
+
+[15:24:23]       sscanf plugin loaded.     
+
+[15:24:23]          Version:  2.8.1        
+
+[15:24:23]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:24:23]  ===============================
+
+[15:24:23]   Loaded.
+[15:24:23]  Loaded 1 plugins.
+
+[15:24:23] 
+[15:24:23] Filterscripts
+[15:24:23] ---------------
+[15:24:23]   Loaded 0 filterscripts.
+
+[15:24:23] Number of vehicle models: 1
+[15:24:44] [connection] 127.0.0.1:61836 requests connection cookie.
+[15:24:45] Incoming connection: 127.0.0.1:61836 id: 0
+[15:24:45] [join] Test_User has joined the server (0:127.0.0.1)
+[15:28:31] [part] Test_User has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[15:31:25] filterscripts = ""  (string)
+[15:31:25] weburl = "www.sa-mp.com"  (string)
+[15:31:25] 
+[15:31:25] Server Plugins
+[15:31:25] --------------
+[15:31:25]  Loading plugin: sscanf
+[15:31:25] 
+
+[15:31:25]  ===============================
+
+[15:31:25]       sscanf plugin loaded.     
+
+[15:31:25]          Version:  2.8.1        
+
+[15:31:25]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:31:25]  ===============================
+
+[15:31:25]   Loaded.
+[15:31:25]  Loaded 1 plugins.
+
+[15:31:26] 
+[15:31:26] Filterscripts
+[15:31:26] ---------------
+[15:31:26]   Loaded 0 filterscripts.
+
+[15:31:26] Number of vehicle models: 1
+[15:31:53] [connection] 127.0.0.1:60299 requests connection cookie.
+[15:31:54] Incoming connection: 127.0.0.1:60299 id: 0
+[15:31:54] [join] Test_User has joined the server (0:127.0.0.1)
+[15:34:10] [part] Test_User has left the server (0:1)
+[15:40:30] [connection] 127.0.0.1:57894 requests connection cookie.
+[15:40:31] Incoming connection: 127.0.0.1:57894 id: 0
+[15:40:31] [join] Test_User has joined the server (0:127.0.0.1)
+[15:40:48] [part] Test_User has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[15:40:56] filterscripts = ""  (string)
+[15:40:56] weburl = "www.sa-mp.com"  (string)
+[15:40:56] 
+[15:40:56] Server Plugins
+[15:40:56] --------------
+[15:40:56]  Loading plugin: sscanf
+[15:40:56] 
+
+[15:40:56]  ===============================
+
+[15:40:56]       sscanf plugin loaded.     
+
+[15:40:56]          Version:  2.8.1        
+
+[15:40:56]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:40:56]  ===============================
+
+[15:40:56]   Loaded.
+[15:40:56]  Loaded 1 plugins.
+
+[15:40:56] 
+[15:40:56] Filterscripts
+[15:40:56] ---------------
+[15:40:56]   Loaded 0 filterscripts.
+
+[15:40:56] Number of vehicle models: 1
+[15:41:18] [connection] 127.0.0.1:57895 requests connection cookie.
+[15:41:19] Incoming connection: 127.0.0.1:57895 id: 0
+[15:41:19] [join] Test_User has joined the server (0:127.0.0.1)
+[15:46:29] [part] Test_User has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[15:46:55] filterscripts = ""  (string)
+[15:46:55] weburl = "www.sa-mp.com"  (string)
+[15:46:55] 
+[15:46:55] Server Plugins
+[15:46:55] --------------
+[15:46:55]  Loading plugin: sscanf
+[15:46:55] 
+
+[15:46:55]  ===============================
+
+[15:46:55]       sscanf plugin loaded.     
+
+[15:46:55]          Version:  2.8.1        
+
+[15:46:55]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:46:55]  ===============================
+
+[15:46:55]   Loaded.
+[15:46:55]  Loaded 1 plugins.
+
+[15:46:55] 
+[15:46:55] Filterscripts
+[15:46:55] ---------------
+[15:46:55]   Loaded 0 filterscripts.
+
+[15:46:55] Number of vehicle models: 1
+[15:47:17] [connection] 127.0.0.1:57897 requests connection cookie.
+[15:47:18] Incoming connection: 127.0.0.1:57897 id: 0
+[15:47:18] [join] Test_User has joined the server (0:127.0.0.1)
+[15:51:29] [part] Test_User has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[16:06:21] filterscripts = ""  (string)
+[16:06:21] weburl = "www.sa-mp.com"  (string)
+[16:06:21] 
+[16:06:21] Server Plugins
+[16:06:21] --------------
+[16:06:21]  Loading plugin: sscanf
+[16:06:21] 
+
+[16:06:21]  ===============================
+
+[16:06:21]       sscanf plugin loaded.     
+
+[16:06:21]          Version:  2.8.1        
+
+[16:06:21]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:06:21]  ===============================
+
+[16:06:21]   Loaded.
+[16:06:21]  Loaded 1 plugins.
+
+[16:06:21] 
+[16:06:21] Filterscripts
+[16:06:21] ---------------
+[16:06:21]   Loaded 0 filterscripts.
+
+[16:06:21] ====================================
+[16:06:21] (null)
+[16:06:21]             World crisis            
+[16:06:21] (null)
+[16:06:21]        Scripted by Ilija Ištuk      
+[16:06:21] (null)
+[16:06:21] ====================================
+[16:06:21] Number of vehicle models: 1
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[16:06:54] filterscripts = ""  (string)
+[16:06:54] weburl = "www.sa-mp.com"  (string)
+[16:06:54] 
+[16:06:54] Server Plugins
+[16:06:54] --------------
+[16:06:54]  Loading plugin: sscanf
+[16:06:54] 
+
+[16:06:54]  ===============================
+
+[16:06:54]       sscanf plugin loaded.     
+
+[16:06:54]          Version:  2.8.1        
+
+[16:06:54]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:06:54]  ===============================
+
+[16:06:54]   Loaded.
+[16:06:54]  Loaded 1 plugins.
+
+[16:06:54] 
+[16:06:54] Filterscripts
+[16:06:54] ---------------
+[16:06:54]   Loaded 0 filterscripts.
+
+[16:06:54] ====================================
+[16:06:54]                                     
+[16:06:54]             World crisis            
+[16:06:54]                                     
+[16:06:54]        Scripted by Ilija Istuk      
+[16:06:54]                                     
+[16:06:54] ====================================
+[16:06:54] Number of vehicle models: 1
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[16:07:19] filterscripts = ""  (string)
+[16:07:19] weburl = "www.sa-mp.com"  (string)
+[16:07:19] 
+[16:07:19] Server Plugins
+[16:07:19] --------------
+[16:07:19]  Loading plugin: sscanf
+[16:07:19] 
+
+[16:07:19]  ===============================
+
+[16:07:19]       sscanf plugin loaded.     
+
+[16:07:19]          Version:  2.8.1        
+
+[16:07:19]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:07:19]  ===============================
+
+[16:07:19]   Loaded.
+[16:07:19]  Loaded 1 plugins.
+
+[16:07:19] 
+[16:07:19] Filterscripts
+[16:07:19] ---------------
+[16:07:19]   Loaded 0 filterscripts.
+
+[16:07:19] ====================================
+[16:07:19]                                     
+[16:07:19]             World crisis            
+[16:07:19]                                     
+[16:07:19]        Scripted by Ilija Istuk      
+[16:07:19]                                     
+[16:07:19] ====================================
+[16:07:19]                                     
+[16:07:19] Number of vehicle models: 1
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[16:18:31] filterscripts = ""  (string)
+[16:18:31] weburl = "www.sa-mp.com"  (string)
+[16:18:31] 
+[16:18:31] Server Plugins
+[16:18:31] --------------
+[16:18:31]  Loading plugin: sscanf
+[16:18:31] 
+
+[16:18:31]  ===============================
+
+[16:18:31]       sscanf plugin loaded.     
+
+[16:18:31]          Version:  2.8.1        
+
+[16:18:31]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:18:31]  ===============================
+
+[16:18:31]   Loaded.
+[16:18:31]  Loaded 1 plugins.
+
+[16:18:31] 
+[16:18:31] Filterscripts
+[16:18:31] ---------------
+[16:18:31]   Loaded 0 filterscripts.
+
+[16:18:31] ====================================
+[16:18:31]                                     
+[16:18:31]             World crisis            
+[16:18:31]                                     
+[16:18:31]        Scripted by Ilija Istuk      
+[16:18:31]                                     
+[16:18:31] ====================================
+[16:18:31]                                     
+[16:18:31] Number of vehicle models: 1
