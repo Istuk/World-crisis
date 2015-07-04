@@ -48,8 +48,17 @@ main()
 
 public OnGameModeInit()
 {
+	new tTime[2][5];
 	SetGameModeText("World crisis");
-	AddStaticVehicle(470,10.5082,4.0090,3.0878,359.9962,0,0);
+	SaveFiles = db_open("SaveFiles.db");
+	Result = db_query( SaveFiles, "SELECT * FROM ServerInfo WHERE name = 'hours'" );
+	db_get_field( Result, 1, tTime[0], 20 );
+	db_free_result( Result );
+	Result = db_query( SaveFiles, "SELECT * FROM ServerInfo WHERE name = 'min'" );
+	db_get_field( Result, 1, tTime[1], 20 );
+	Time[0] = strval(tTime[0]);
+	Time[1] = strval(tTime[1]);
+	db_free_result( Result );
 	{
 		tdWelcomeBox = TextDrawCreate( 380.00, 0, "~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~~n~" );
 		TextDrawUseBox( tdWelcomeBox, 1 );
@@ -76,6 +85,10 @@ public OnGameModeInit()
 		TextDrawTextSize( tdAdminMBox, 620, 190 );
 		TextDrawBackgroundColor( tdAdminMBox, 0x00000010 );
 		
+		tdAdminMMBox = TextDrawCreate( 400 , 110, "Welcome back! Please log in to verify your identity, after that you'll spawn right where you left the game." );
+		TextDrawTextSize( tdAdminMMBox, 620, 190 );
+		TextDrawBackgroundColor( tdAdminMMBox, 0x00000010 );
+		
 		tdSignButton = TextDrawCreate( 510.00, 400, "Register" );
 		TextDrawColor( tdSignButton, 0xFFFFFFFF);
 		TextDrawAlignment( tdSignButton, 2 );
@@ -84,6 +97,15 @@ public OnGameModeInit()
 		TextDrawTextSize( tdSignButton, 25.0, 80.0 );
 		TextDrawSetShadow( tdSignButton, 1 );
 		TextDrawBackgroundColor( tdSignButton, 0x00000050 );
+		
+		tdLogButton = TextDrawCreate( 510.00, 400, "Login" );
+		TextDrawColor( tdLogButton, 0xFFFFFFFF);
+		TextDrawAlignment( tdLogButton, 2 );
+		TextDrawFont( tdLogButton, 3 );
+		TextDrawSetSelectable( tdLogButton, 1 );
+		TextDrawTextSize( tdLogButton, 25.0, 80.0 );
+		TextDrawSetShadow( tdLogButton, 1 );
+		TextDrawBackgroundColor( tdLogButton, 0x00000050 );
 	}
 	
 	{
@@ -122,7 +144,7 @@ public OnGameModeInit()
 		TextDrawSetShadow( tdUseCharacter, 1 );
 		TextDrawBackgroundColor( tdUseCharacter, 0x00000050 );
 		
-		tdSname = TextDrawCreate( 80, 430, "World ~w~crisis" );
+		tdSname = TextDrawCreate( 84, 430, "World ~w~crisis" );
 		TextDrawColor( tdSname, 0xD49B31FF);
 		TextDrawAlignment( tdSname, 2 );
 		TextDrawFont( tdSname, 3 );
@@ -136,10 +158,23 @@ public OnGameModeInit()
 		TextDrawLetterSize( tdPSbox, 0, 0.3375);
 		TextDrawTextSize( tdPSbox, 631.1, 5);
 	}
+	{
+		tdTime = TextDrawCreate( 550, 22, "00:00");
+		TextDrawFont(tdTime , 3);
+		TextDrawLetterSize(tdTime , 0.55, 1.9);
+		TextDrawColor(tdTime , 0xffffffFF);
+		TextDrawSetOutline(tdTime , 2);
+		TextDrawSetProportional(tdTime , true);
+		TextDrawSetShadow(tdTime , 0);
+	}
+	SetWorldTime(0);
+	SetTimer( "TimeAdvance", 4000, true );
+	SetTimer( "SaveWorldTime", 10000, true );
 	return 1;
 }
 
 public OnGameModeExit()
 {
+	db_close( SaveFiles );
 	return 1;
 }

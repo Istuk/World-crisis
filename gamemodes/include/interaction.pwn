@@ -29,6 +29,11 @@ public OnPlayerClickTextDraw( playerid, Text:clickedid ) {
 			SelectTextDraw( playerid, 0xD49B31FF );
 		}
 	}
+	if (clickedid == tdLogButton) {
+		Dialog_Show( playerid, dgLogin, DIALOG_STYLE_PASSWORD, "{D49B31}Login",
+		"{FFFFFF}Please enter your password:",
+		"{D49B31}Login", "Cancel");
+	}
 	if (clickedid == tdSignButton) {
 		Dialog_Show( playerid, dgRules, DIALOG_STYLE_MSGBOX, "{D49B31}Choose password",
 		"{D49B31}You're not allowed{FFFFFF}:\n\
@@ -75,7 +80,7 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 	}
 	if (clickedid == tdUseCharacter) {
 		SpawnPlayer( playerid );
-		new rand = random(3);
+		new rand = random(4);
 		TextDrawHideForPlayer( playerid, tdPrevCharacter );
 		TextDrawHideForPlayer( playerid, tdNextCharacter );
 		TextDrawHideForPlayer( playerid, tdUseCharacter );
@@ -85,6 +90,7 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 		{
 			TextDrawShowForPlayer( playerid, tdSname );
 			TextDrawShowForPlayer( playerid, tdPSbox );
+			TextDrawShowForPlayer( playerid, tdTime );
 			PlayerTextDrawShow( playerid, ptdPSbox[ playerid ] );
 			PlayerTextDrawShow( playerid, ptdLevel[ playerid ] );
 		}
@@ -106,7 +112,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 1;
 				Player[ playerid ][ gas ] = 0;
 				Player[ playerid ][ mats ] = 0;
+				Player[ playerid ][ food ] = 20;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 			}
 			case 1: {
 				GivePlayerMoney( playerid, 2000 );
@@ -119,7 +127,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 2;
 				Player[ playerid ][ gas ] = 0;
 				Player[ playerid ][ mats ] = 0;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 			}
 			case 2: {
 				GivePlayerMoney( playerid, 2000 );
@@ -132,7 +142,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 1;
 				Player[ playerid ][ gas ] = 0;
 				Player[ playerid ][ mats ] = 0;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 			}
 			case 3: {
 				GivePlayerMoney( playerid, 500 );
@@ -145,7 +157,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 1;
 				Player[ playerid ][ gas ] = 30;
 				Player[ playerid ][ mats ] = 0;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 			}
 			case 4: {
 				Player[ playerid ][ xp ] = 0;
@@ -155,7 +169,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 5;
 				Player[ playerid ][ gas ] = 200;
 				Player[ playerid ][ mats ] = 0;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 			}
 			case 5: {
 				GivePlayerMoney( playerid, 8000 );
@@ -167,7 +183,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 1;
 				Player[ playerid ][ gas ] = 0;
 				Player[ playerid ][ mats ] = 0;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 			}
 			case 6: {
 				GivePlayerMoney( playerid, 500 );
@@ -180,7 +198,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 1;
 				Player[ playerid ][ gas ] = 0;
 				Player[ playerid ][ mats ] = 0;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 			}
 			case 7: {
 				GivePlayerMoney( playerid, 50 );
@@ -193,7 +213,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 1;
 				Player[ playerid ][ gas ] = 0;
 				Player[ playerid ][ mats ] = 0;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 			}
 			case 8: {
 				GivePlayerWeapon( playerid, 6, 1);
@@ -205,7 +227,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 10;
 				Player[ playerid ][ gas ] = 0;
 				Player[ playerid ][ mats ] = 0;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 			}
 			case 9: {
 				GivePlayerMoney( playerid, 1500 );
@@ -217,7 +241,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 1;
 				Player[ playerid ][ gas ] = 100;
 				Player[ playerid ][ mats ] = 0;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 				
 			}
 			case 10: {
@@ -231,7 +257,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 1;
 				Player[ playerid ][ gas ] = 0;
 				Player[ playerid ][ mats ] = 0;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 				
 			}
 			case 11: {
@@ -245,7 +273,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 2;
 				Player[ playerid ][ gas ] = 0;
 				Player[ playerid ][ mats ] = 0;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 			}
 			case 12: {
 				GivePlayerMoney( playerid, 3500 );
@@ -257,7 +287,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 2;
 				Player[ playerid ][ gas ] = 30;
 				Player[ playerid ][ mats ] = 0;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 			}
 			case 13: {
 				GivePlayerMoney( playerid, 15 );
@@ -269,7 +301,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 1;
 				Player[ playerid ][ gas ] = 0;
 				Player[ playerid ][ mats ] = 300;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 			}
 			case 14: {
 				GivePlayerMoney( playerid, 3500 );
@@ -281,7 +315,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 1;
 				Player[ playerid ][ gas ] = 0;
 				Player[ playerid ][ mats ] = 100;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 			}
 			case 15: {
 				GivePlayerMoney( playerid, 3000 );
@@ -294,7 +330,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 1;
 				Player[ playerid ][ gas ] = 0;
 				Player[ playerid ][ mats ] = 0;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 			}
 			case 16: {
 				GivePlayerMoney( playerid, 1500 );
@@ -307,7 +345,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 1;
 				Player[ playerid ][ gas ] = 0;
 				Player[ playerid ][ mats ] = 0;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 			}
 			case 17: {
 				GivePlayerMoney( playerid, 200 );
@@ -319,7 +359,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 1;
 				Player[ playerid ][ gas ] = 0;
 				Player[ playerid ][ mats ] = 0;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 			}
 			case 18: {
 				GivePlayerMoney( playerid, 40 );
@@ -332,7 +374,9 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 2;
 				Player[ playerid ][ gas ] = 0;
 				Player[ playerid ][ mats ] = 250;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 			}
 			case 19: {
 				GivePlayerMoney( playerid, 500 );
@@ -345,9 +389,17 @@ If you see anyone violating the rules use {D49B31}/report{D4B375} [ID] [Message]
 				Player[ playerid ][ thief ] = 2;
 				Player[ playerid ][ gas ] = 0;
 				Player[ playerid ][ mats ] = 0;
+				Player[ playerid ][ food ] = 0;
 				Player[ playerid ][ advradio ] = 0;
+				Player[ playerid ][ skillpts ] = 0;
 			}
 		}
+		new tUserName[ MAX_PLAYER_NAME ];
+		GetPlayerName( playerid, tUserName, MAX_PLAYER_NAME );
+		format(Query, 512, "INSERT INTO Users (username, password, char) VALUES ('%s','%s',%i)", tUserName, NewUserPassword[ playerid ], SelectingCharacter[ playerid ] );
+		db_query( SaveFiles, Query );
+		format(Query, 512, "INSERT INTO Weapons (username) VALUES ('%s')", tUserName);
+		db_query( SaveFiles, Query );
 		Dialog_Show( playerid, HelpOne, DIALOG_STYLE_MSGBOX, "{D49B31}Help 1/3",
 "{D49B31}/wt {D4B375}[Message] {FFFFFF}Say something over walky talky\n\n\
 {D49B31}/wtf {D4B375}[Frequency] {FFFFFF}Set frequency at WalkyTalky (30-300)\n\n\
@@ -454,5 +506,70 @@ a hideout in a hidden place",
 }
 Dialog:HelpEnd(playerid, response, listitem, inputtext[]) {
 	IsSelecting[ playerid ] = 0;
+	IsLoged[ playerid ] = 1;
 	CancelSelectTextDraw( playerid );
+}
+Dialog:dgLogin(playerid, response, listitem, inputtext[]) {
+	new tUser[ MAX_PLAYER_NAME ], tmp[20][30];
+	
+	if (response == 0) return 1;
+	
+	GetPlayerName( playerid, tUser, MAX_PLAYER_NAME );
+	format( Query, 512, "SELECT * FROM Users WHERE username = '%s'", tUser );
+	Result = db_query( SaveFiles, Query );
+	
+	for (new i = 0; i < 20; i++) {
+		db_get_field( Result, i, tmp[i], 30 );
+	}
+	
+	if (!strcmp( tmp[1], inputtext )) {
+		IsSelecting[ playerid ] = 0;
+		IsLoged[ playerid ] = 1;
+		CancelSelectTextDraw( playerid );
+		SetSpawnInfo( playerid, 0, Characters[ strval(tmp[ 2 ]) ], floatstr(tmp[ 3 ]), floatstr(tmp[ 4 ]), floatstr(tmp[ 5 ]), floatstr(tmp[ 6 ]), 0, 0, 0, 0, 0, 0 );
+		TogglePlayerSpectating( playerid, 0 );
+		SetPlayerHealth( playerid, floatstr(tmp[ 7 ]) );
+		SetPlayerArmour( playerid, floatstr(tmp[ 8 ]) );
+		TextDrawHideForPlayer( playerid, tdLogButton );
+		TextDrawHideForPlayer( playerid, tdAdmin );
+		TextDrawHideForPlayer( playerid, tdAdminMMBox );
+		TextDrawHideForPlayer( playerid, tdServerName );
+		TextDrawHideForPlayer( playerid, tdWelcomeBox );
+		{
+			TextDrawShowForPlayer( playerid, tdSname );
+			TextDrawShowForPlayer( playerid, tdPSbox );
+			TextDrawShowForPlayer( playerid, tdTime );
+			PlayerTextDrawShow( playerid, ptdPSbox[ playerid ] );
+			PlayerTextDrawShow( playerid, ptdLevel[ playerid ] );
+		}
+		
+		Player[ playerid ][ xp ] = strval(tmp[ 9 ]);
+		Player[ playerid ][ level ] = strval(tmp[ 10 ]);
+		Player[ playerid ][ crafting ] = strval(tmp[ 11 ]);
+		Player[ playerid ][ mechanic ] = strval(tmp[ 12 ]);
+		Player[ playerid ][ thief ] = strval(tmp[ 13 ]);
+		Player[ playerid ][ gas ] = strval(tmp[ 14 ]);
+		Player[ playerid ][ mats ] = strval(tmp[ 15 ]);
+		Player[ playerid ][ food ] = strval(tmp[ 16 ]);
+		Player[ playerid ][ advradio ] = strval(tmp[ 17 ]);
+		Player[ playerid ][ skillpts ] = strval(tmp[ 18 ]);
+		
+		GivePlayerMoney( playerid, strval(tmp[ 19 ]) );
+		db_free_result(Result);
+		format( Query, 512, "SELECT * FROM Weapons WHERE username = '%s'", tUser );
+		Result = db_query( SaveFiles, Query );
+		
+		for (new i = 0; i < 13; i++) {
+			db_get_field( Result, i, tmp[ 0 ], 30 );
+			db_get_field( Result, 13+i, tmp[ 1 ], 30 );
+			GivePlayerWeapon( playerid, strval(tmp[ 0 ]), strval(tmp[ 1 ]) );
+		}
+		
+	}else{
+		Dialog_Show( playerid, dgLogin, DIALOG_STYLE_PASSWORD, "{D49B31}Login",
+		"{D49B31}Wrong password{FFFFFF}!\n\nPlease enter your password:",
+		"{D49B31}Login", "Cancel");
+	}
+	db_free_result(Result);
+	return 1;
 }
