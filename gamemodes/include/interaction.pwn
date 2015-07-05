@@ -35,7 +35,7 @@ public OnPlayerClickTextDraw( playerid, Text:clickedid ) {
 		"{D49B31}Login", "Cancel");
 	}
 	if (clickedid == tdSignButton) {
-		Dialog_Show( playerid, dgRules, DIALOG_STYLE_MSGBOX, "{D49B31}Choose password",
+		Dialog_Show( playerid, dgRules, DIALOG_STYLE_MSGBOX, "{D49B31}Rules",
 		"{D49B31}You're not allowed{FFFFFF}:\n\
  - to cheat or hack\n\
  - to use mods to your advantage (handling mods etc.)\n\

@@ -24109,3 +24109,399 @@ v0.3.7, (C)2005-2015 SA-MP Team
 [18:10:20] Incoming connection: 127.0.0.1:58575 id: 0
 [18:10:21] [join] Test_User has joined the server (0:127.0.0.1)
 [18:11:06] [part] Test_User has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[21:07:29] filterscripts = ""  (string)
+[21:07:29] weburl = "www.sa-mp.com"  (string)
+[21:07:29] 
+[21:07:29] Server Plugins
+[21:07:29] --------------
+[21:07:29]  Loading plugin: sscanf
+[21:07:29] 
+
+[21:07:29]  ===============================
+
+[21:07:29]       sscanf plugin loaded.     
+
+[21:07:29]          Version:  2.8.1        
+
+[21:07:29]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:07:29]  ===============================
+
+[21:07:29]   Loaded.
+[21:07:29]  Loaded 1 plugins.
+
+[21:07:29] 
+[21:07:29] Filterscripts
+[21:07:29] ---------------
+[21:07:29]   Loaded 0 filterscripts.
+
+[21:07:29] ====================================
+[21:07:29]                                     
+[21:07:29]             World crisis            
+[21:07:29]                                     
+[21:07:29]        Scripted by Ilija Istuk      
+[21:07:29]                                     
+[21:07:29] ====================================
+[21:07:29]                                     
+[21:07:29] Number of vehicle models: 0
+[21:08:14] [connection] 127.0.0.1:56910 requests connection cookie.
+[21:08:16] Incoming connection: 127.0.0.1:56910 id: 0
+[21:08:16] [join] Test_User has joined the server (0:127.0.0.1)
+[21:08:41] [part] Test_User has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[21:11:07] filterscripts = ""  (string)
+[21:11:07] weburl = "www.sa-mp.com"  (string)
+[21:11:07] 
+[21:11:07] Server Plugins
+[21:11:07] --------------
+[21:11:07]  Loading plugin: sscanf
+[21:11:07] 
+
+[21:11:07]  ===============================
+
+[21:11:07]       sscanf plugin loaded.     
+
+[21:11:07]          Version:  2.8.1        
+
+[21:11:07]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:11:07]  ===============================
+
+[21:11:07]   Loaded.
+[21:11:07]  Loaded 1 plugins.
+
+[21:11:07] 
+[21:11:07] Filterscripts
+[21:11:07] ---------------
+[21:11:07]   Loaded 0 filterscripts.
+
+[21:11:07] ====================================
+[21:11:07]                                     
+[21:11:07]             World crisis            
+[21:11:07]                                     
+[21:11:07]        Scripted by Ilija Istuk      
+[21:11:07]                                     
+[21:11:07] ====================================
+[21:11:07]                                     
+[21:11:07] Number of vehicle models: 0
+[21:11:53] [connection] 127.0.0.1:60866 requests connection cookie.
+[21:11:54] Incoming connection: 127.0.0.1:60866 id: 0
+[21:11:54] [join] Test_User has joined the server (0:127.0.0.1)
+[21:14:13] [part] Test_User has left the server (0:1)
+[21:15:04] [connection] 127.0.0.1:60867 requests connection cookie.
+[21:15:05] Incoming connection: 127.0.0.1:60867 id: 0
+[21:15:06] [join] Test_User has joined the server (0:127.0.0.1)
+[21:15:49] [part] Test_User has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[21:27:47] filterscripts = ""  (string)
+[21:27:47] weburl = "www.sa-mp.com"  (string)
+[21:27:47] 
+[21:27:47] Server Plugins
+[21:27:47] --------------
+[21:27:47]  Loading plugin: sscanf
+[21:27:47] 
+
+[21:27:47]  ===============================
+
+[21:27:47]       sscanf plugin loaded.     
+
+[21:27:47]          Version:  2.8.1        
+
+[21:27:47]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:27:47]  ===============================
+
+[21:27:47]   Loaded.
+[21:27:47]  Loaded 1 plugins.
+
+[21:27:47] 
+[21:27:47] Filterscripts
+[21:27:47] ---------------
+[21:27:47]   Loaded 0 filterscripts.
+
+[21:27:47] ====================================
+[21:27:47]                                     
+[21:27:47]             World crisis            
+[21:27:47]                                     
+[21:27:47]        Scripted by Ilija Istuk      
+[21:27:47]                                     
+[21:27:47] ====================================
+[21:27:47]                                     
+[21:27:47] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[21:28:30] filterscripts = ""  (string)
+[21:28:30] weburl = "www.sa-mp.com"  (string)
+[21:28:30] 
+[21:28:30] Server Plugins
+[21:28:30] --------------
+[21:28:30]  Loading plugin: sscanf
+[21:28:30] 
+
+[21:28:30]  ===============================
+
+[21:28:30]       sscanf plugin loaded.     
+
+[21:28:30]          Version:  2.8.1        
+
+[21:28:30]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:28:30]  ===============================
+
+[21:28:30]   Loaded.
+[21:28:30]  Loaded 1 plugins.
+
+[21:28:30] 
+[21:28:30] Filterscripts
+[21:28:30] ---------------
+[21:28:30]   Loaded 0 filterscripts.
+
+[21:28:30] ====================================
+[21:28:30]                                     
+[21:28:30]             World crisis            
+[21:28:30]                                     
+[21:28:30]        Scripted by Ilija Istuk      
+[21:28:30]                                     
+[21:28:30] ====================================
+[21:28:30]                                     
+[21:28:30] Number of vehicle models: 0
+[21:29:02] [connection] 127.0.0.1:64816 requests connection cookie.
+[21:29:03] Incoming connection: 127.0.0.1:64816 id: 0
+[21:29:04] [join] Test_User has joined the server (0:127.0.0.1)
+[21:31:21] [part] Test_User has left the server (0:1)
+[21:31:49] [connection] 127.0.0.1:64817 requests connection cookie.
+[21:31:50] Incoming connection: 127.0.0.1:64817 id: 0
+[21:31:50] [join] Test_User has joined the server (0:127.0.0.1)
+[21:32:50] [part] Test_User has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[21:53:21] filterscripts = ""  (string)
+[21:53:21] weburl = "www.sa-mp.com"  (string)
+[21:53:21] 
+[21:53:21] Server Plugins
+[21:53:21] --------------
+[21:53:21]  Loading plugin: sscanf
+[21:53:21] 
+
+[21:53:21]  ===============================
+
+[21:53:21]       sscanf plugin loaded.     
+
+[21:53:21]          Version:  2.8.1        
+
+[21:53:21]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:53:21]  ===============================
+
+[21:53:21]   Loaded.
+[21:53:21]  Loaded 1 plugins.
+
+[21:53:21] 
+[21:53:21] Filterscripts
+[21:53:21] ---------------
+[21:53:21]   Loaded 0 filterscripts.
+
+[21:53:21] ====================================
+[21:53:21]                                     
+[21:53:21]             World crisis            
+[21:53:21]                                     
+[21:53:21]        Scripted by Ilija Istuk      
+[21:53:21]                                     
+[21:53:21] ====================================
+[21:53:21]                                     
+[21:53:21] Number of vehicle models: 0
+[21:54:07] [connection] 127.0.0.1:58310 requests connection cookie.
+[21:54:08] Incoming connection: 127.0.0.1:58310 id: 0
+[21:54:09] [join] Test_User has joined the server (0:127.0.0.1)
+[21:56:40] [part] Test_User has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[21:58:43] filterscripts = ""  (string)
+[21:58:43] weburl = "www.sa-mp.com"  (string)
+[21:58:43] 
+[21:58:43] Server Plugins
+[21:58:43] --------------
+[21:58:43]  Loading plugin: sscanf
+[21:58:43] 
+
+[21:58:43]  ===============================
+
+[21:58:43]       sscanf plugin loaded.     
+
+[21:58:43]          Version:  2.8.1        
+
+[21:58:43]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:58:43]  ===============================
+
+[21:58:43]   Loaded.
+[21:58:43]  Loaded 1 plugins.
+
+[21:58:43] 
+[21:58:43] Filterscripts
+[21:58:43] ---------------
+[21:58:43]   Loaded 0 filterscripts.
+
+[21:58:43] ====================================
+[21:58:43]                                     
+[21:58:43]             World crisis            
+[21:58:43]                                     
+[21:58:43]        Scripted by Ilija Istuk      
+[21:58:43]                                     
+[21:58:43] ====================================
+[21:58:43]                                     
+[21:58:43] Number of vehicle models: 0
+[21:59:04] [connection] 127.0.0.1:50378 requests connection cookie.
+[21:59:05] Incoming connection: 127.0.0.1:50378 id: 0
+[21:59:05] [join] Test_User has joined the server (0:127.0.0.1)
+[22:01:25] [part] Test_User has left the server (0:1)
+[22:05:14] [connection] 127.0.0.1:50721 requests connection cookie.
+[22:05:15] Incoming connection: 127.0.0.1:50721 id: 0
+[22:05:15] [join] Test_User has joined the server (0:127.0.0.1)
+[22:05:19] [part] Test_User has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[22:06:33] filterscripts = ""  (string)
+[22:06:33] weburl = "www.sa-mp.com"  (string)
+[22:06:33] 
+[22:06:33] Server Plugins
+[22:06:33] --------------
+[22:06:33]  Loading plugin: sscanf
+[22:06:33] 
+
+[22:06:33]  ===============================
+
+[22:06:33]       sscanf plugin loaded.     
+
+[22:06:33]          Version:  2.8.1        
+
+[22:06:33]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:06:33]  ===============================
+
+[22:06:33]   Loaded.
+[22:06:33]  Loaded 1 plugins.
+
+[22:06:33] 
+[22:06:33] Filterscripts
+[22:06:33] ---------------
+[22:06:33]   Loaded 0 filterscripts.
+
+[22:06:33] ====================================
+[22:06:33]                                     
+[22:06:33]             World crisis            
+[22:06:33]                                     
+[22:06:33]        Scripted by Ilija Istuk      
+[22:06:33]                                     
+[22:06:33] ====================================
+[22:06:33]                                     
+[22:06:33] Number of vehicle models: 0
+[22:06:59] [connection] 127.0.0.1:54354 requests connection cookie.
+[22:07:00] Incoming connection: 127.0.0.1:54354 id: 0
+[22:07:00] [join] Test_User has joined the server (0:127.0.0.1)
+[22:09:31] [part] Test_User has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[22:11:04] filterscripts = ""  (string)
+[22:11:04] weburl = "www.sa-mp.com"  (string)
+[22:11:04] 
+[22:11:04] Server Plugins
+[22:11:04] --------------
+[22:11:04]  Loading plugin: sscanf
+[22:11:04] 
+
+[22:11:04]  ===============================
+
+[22:11:04]       sscanf plugin loaded.     
+
+[22:11:04]          Version:  2.8.1        
+
+[22:11:04]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:11:04]  ===============================
+
+[22:11:04]   Loaded.
+[22:11:04]  Loaded 1 plugins.
+
+[22:11:05] 
+[22:11:05] Filterscripts
+[22:11:05] ---------------
+[22:11:05]   Loaded 0 filterscripts.
+
+[22:11:05] ====================================
+[22:11:05]                                     
+[22:11:05]             World crisis            
+[22:11:05]                                     
+[22:11:05]        Scripted by Ilija Istuk      
+[22:11:05]                                     
+[22:11:05] ====================================
+[22:11:05]                                     
+[22:11:05] Number of vehicle models: 0
+[22:11:28] [connection] 127.0.0.1:51103 requests connection cookie.
+[22:11:29] Incoming connection: 127.0.0.1:51103 id: 0
+[22:11:30] [join] Test_User has joined the server (0:127.0.0.1)
+[22:14:00] [part] Test_User has left the server (0:1)
+[22:14:29] [connection] 127.0.0.1:51104 requests connection cookie.
+[22:14:30] Incoming connection: 127.0.0.1:51104 id: 0
+[22:14:30] [join] Test_User has joined the server (0:127.0.0.1)
+[22:15:40] [part] Test_User has left the server (0:1)
